@@ -18,7 +18,7 @@ namespace Tyuiu.ModenovaAP.Sprint3.Task1.V23.Test
 
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
 
-            double wait = 204049,946;
+            double wait = 204049.946;
 
             Assert.AreEqual(wait, res);
         }
